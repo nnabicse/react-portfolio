@@ -1,5 +1,4 @@
 import React from 'react';
-import cpp from '../../src/images/skills/ccpp.png'
 import js from '../../src/images/skills/js.png'
 import python from '../../src/images/skills/py.png'
 import react from '../../src/images/skills/react.jpg'
@@ -26,52 +25,52 @@ const Skills = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={js} alt="" />
+                        <img className="img-fluid w-100" src={js} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={python} alt="" />
+                        <img className="img-fluid" src={python} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={react} alt="" />
+                        <img className="img-fluid w-100" src={react} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={node} alt="" />
+                        <img className="img-fluid w-100" src={node} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={express} alt="" />
+                        <img className="img-fluid w-100" src={express} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={mongo} alt="" />
+                        <img className="img-fluid w-100" src={mongo} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={bs5} alt="" />
+                        <img className="img-fluid w-100" src={bs5} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={twind} alt="" />
+                        <img className="img-fluid w-100" src={twind} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={fire} alt="" />
+                        <img className="img-fluid w-100" src={fire} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={git} alt="" />
+                        <img className="img-fluid w-100" src={git} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={vscode} alt="" />
+                        <img className="img-fluid w-100" src={vscode} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={codeblocks} alt="" />
+                        <img className="img-fluid w-100" src={codeblocks} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={fig} alt="" />
+                        <img className="img-fluid w-100" src={fig} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={ubuntu} alt="" />
+                        <img className="img-fluid w-100" src={ubuntu} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={mint} alt="" />
+                        <img className="img-fluid w-100" src={mint} alt="" />
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-3">
-                        <img className="w-75" src={win} alt="" />
+                        <img className="img-fluid w-100" src={win} alt="" />
                     </div>
                 </div>
                 {/* <div className='row'>
