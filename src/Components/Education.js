@@ -20,7 +20,7 @@ const Education = () => {
                                         <div class="card-body">
                                             <h5 class="card-title">East West University</h5>
                                             <small class="card-text fw-bold">Master of Science</small><br />
-                                            <small class="card-text">Computer Science & Engineering</small> <br />
+                                            <small class="card-text">Computer Science & Engg.</small> <br />
                                             <small class="card-text">Major Data Science</small> <br />
                                             <small class="card-text">Session 2021-2022.</small> <br />
                                             <small class="card-text">CGPA of 4 out of 4</small>
@@ -46,7 +46,7 @@ const Education = () => {
                                         <div class="card-body">
                                             <h5 class="card-title">East Delta University</h5>
                                             <small class="card-text fw-bold">Bachelor of Science</small><br />
-                                            <small class="card-text">Computer Science & Engineering</small> <br />
+                                            <small class="card-text">Computer Science & Engg.</small> <br />
                                             <small class="card-text">Major Computer Science</small> <br />
                                             <small class="card-text">Session 2018-2021.</small> <br />
                                             <small class="card-text">CGPA of 3.50 out of 4</small>

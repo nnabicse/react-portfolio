@@ -39,9 +39,9 @@ const Projects = () => {
                             <img className='img-fluid' src={ppml} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Printing Parts Manufacturer Ltd.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Printing Parts Manufacturer Limited is manufacturer online selling palce where an individual can buy products in wholesell</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleNnabiPpmlDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>
@@ -55,9 +55,9 @@ const Projects = () => {
                             <img className='img-fluid' src={ware} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Warehouse</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Warehouse is an inventory management system where a business person can manage stocks of products and incomin or outgoing orders.</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleNnabiWarehouseDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>
@@ -70,10 +70,10 @@ const Projects = () => {
                         <div class="card">
                             <img className='img-fluid' src={dataSci} alt="" />
                             <div class="card-body">
-                                <h5 class="card-title">NNABI Printing Parts Manufacturer Ltd.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <h5 class="card-title">Independent Data Scientist</h5>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>Independent Data Scientist is indivial service provider application where an individual can book any service provided by the data scientist.</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleIdsDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>
@@ -87,9 +87,9 @@ const Projects = () => {
                             <img className='img-fluid' src={eye} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Eye Frame -Simple Ecommerce</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>Eye Frame is a simple ecommerce cart functionality where an individual can select 5 frames and the application will chosse one for the individual.</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleEyeFrameDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>
@@ -103,9 +103,9 @@ const Projects = () => {
                             <img className='img-fluid' src={mobile} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Mobile Pedia -Simple Phone Database</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>Mobile-Pedia is a simple phone database where an individual can search any phone and can see the latest specification and prices of the phone.</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleMobileDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>
@@ -119,9 +119,9 @@ const Projects = () => {
                             <img className='img-fluid' src={refri} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Refrigeretor -Product Review</h5>
-                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque ipsa deserunt, quia vel aliquid repellat repellendus sequi possimus commodi autem.</p>
+                                <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Refrigeretor is a website based product review fuctionality where anyone can see the other people reviews about the product and specification.</p>
                             </div>
-                            <div class="card-footer container">
+                            <div class="card-footer bg-white container">
                                 <div className='row'>
                                     <div className='text-center'>
                                         <button onClick={handleRefriDetail} className='btn btn-primary col-sm-12 col-md-8 col-lg-8'>Details</button>

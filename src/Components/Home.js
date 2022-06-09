@@ -16,14 +16,22 @@ const Home = () => {
             <div className='my-5'>
                 <About></About>
             </div>
-            
-            <Skills></Skills>
-            
-            <Projects></Projects>
-            
-            <Education></Education>
-            
-            <Contact></Contact>
+
+            <div className='my-5'>
+                <Skills></Skills>
+            </div>
+
+            <div className='my-5'>
+                <Projects></Projects>
+            </div>
+
+            <div className='my-5'>
+                <Education></Education>
+            </div>
+
+            <div className='my-5'>
+                <Contact></Contact>
+            </div>
         </div>
     );
 };
