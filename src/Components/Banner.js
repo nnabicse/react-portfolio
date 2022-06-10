@@ -2,7 +2,8 @@ import { faFacebook, faGithub, faLinkedin, faSkype, faTwitter, faWhatsapp } from
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import bannerimg from '../../src/images/banner2.png'
+import bannerimg from '../../src/images/banner3.png'
+import resume from '../../src/docs/Nurun_Nabi_Resume_Phero.pdf'
 
 const Banner = () => {
     return (
@@ -25,7 +26,7 @@ const Banner = () => {
 
                     </p>
                     <p style={{ "text-align": "justify" }} className='my-3'>Hi, I'm Nurun Nabi from Dhaka, Bangladesh, a Computer and Information Technology Personnel and an expert web application developer. I have experties in MERN stack for web application development and Javascript for programming. I also have fair knowledge in Artificial Intelligence  and Machine Learning. I use the puthon stack for AI/ML model development.</p>
-                    <a className='btn btn-primary' target="_blank" href="https://drive.google.com/file/d/1jOOhPjH9JpXae6VfWFUmaDyx6U42ltj-/view?usp=sharing" style={{ "text-decoration": "none" }}>Download Resume</a>
+                    <a className='btn btn-primary' download href={resume} style={{ "text-decoration": "none" }}>Download Resume</a>
 
                 </div>
             </div>
