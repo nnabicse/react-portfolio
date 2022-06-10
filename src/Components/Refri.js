@@ -1,5 +1,8 @@
 import React from 'react';
-import refriimg from '../../src/images/projects/refri.png'
+import { Carousel } from 'react-bootstrap';
+import refri1 from '../../src/images/projects/refri1.png'
+import refri2 from '../../src/images/projects/refri2.png'
+import refri3 from '../../src/images/projects/refri3.png'
 
 const Refri = () => {
     return (
@@ -11,7 +14,33 @@ const Refri = () => {
                 <div className='row justify-content-center'>
                     <div className='col-sm-12 col-md-9 col-lg-9'>
                         <div class="card mb-3">
-                            <img class="card-img-top" src={refriimg} alt="Card image cap" />
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={refri1}
+                                        alt="First slide"
+                                    />
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={refri2}
+                                        alt="Second slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={refri3}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
+                            {/* <img class="card-img-top" src={refriimg} alt="Card image cap" /> */}
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Refrigeretor -Product Review of a  Website</h5>
                                 <p class="card-text">NNABI Refrigeretor is a simple product review website functionality that helps someone to see the reviuew of a product. It's a modern looking design with qa consistant UI. This websitr built with HTML5, CSS3, Javascript, Bootstrap CSS5 and other technologies.</p>

@@ -17,13 +17,8 @@ const Navigationbar = () => {
                         <Nav.Link as={Link} to='/projects'>Projects</Nav.Link>
                         <Nav.Link as={Link} to='/education'>Education</Nav.Link>
                         <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
+                        <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
                     </Nav>
-                    {/* <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
-                    </Nav> */}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

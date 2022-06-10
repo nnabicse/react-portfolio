@@ -1,5 +1,8 @@
 import React from 'react';
-import idsimg from '../../src/images/projects/datasci.png'
+import { Carousel } from 'react-bootstrap';
+import data1 from '../../src/images/projects/data1.png'
+import data2 from '../../src/images/projects/data2.png'
+import data3 from '../../src/images/projects/data3.png'
 
 const Ids = () => {
     return (
@@ -11,7 +14,33 @@ const Ids = () => {
                 <div className='row justify-content-center'>
                     <div className='col-sm-12 col-md-9 col-lg-9'>
                         <div class="card mb-3">
-                            <img class="card-img-top" src={idsimg} alt="Card image cap" />
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={data1}
+                                        alt="First slide"
+                                    />
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={data2}
+                                        alt="Second slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={data3}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
+                            {/* <img class="card-img-top" src={idsimg} alt="Card image cap" /> */}
                             <div class="card-body">
                                 <h5 class="card-title">Independent Data Scientist -Simple Website to Book Data Sciecne Services</h5>
                                 <p class="card-text">Independent Data Scientist is a individual service selling ecommerce functionality that helps someone to book any service from the service provider. It's a modern looking design with qa consistant UI. This website built with HTML5, CSS3, Javascript, Bootstrap CSS5, React Js and other technologies.</p>

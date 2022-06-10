@@ -1,10 +1,10 @@
 import React from 'react';
-import ppml from '../../src/images/projects/ppml.png'
-import ware from '../../src/images/projects/warehouse.png'
-import dataSci from '../../src/images/projects/datasci.png'
-import eye from '../../src/images/projects/eyeframe.png'
-import mobile from '../../src/images/projects/mobile.png'
-import refri from '../../src/images/projects/refri.png'
+import ppml1 from '../../src/images/projects/ppml1.png'
+import ware1 from '../../src/images/projects/ware1.png'
+import data1 from '../../src/images/projects/data1.png'
+import eye1 from '../../src/images/projects/eye1.png'
+import mobile2 from '../../src/images/projects/mobile2.png'
+import refri1 from '../../src/images/projects/refri1.png'
 import { useNavigate } from 'react-router-dom';
 
 const Projects = () => {
@@ -36,7 +36,7 @@ const Projects = () => {
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={ppml} alt="" />
+                            <img className='img-fluid' src={ppml1} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Printing Parts Manufacturer Ltd.</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Printing Parts Manufacturer Limited is manufacturer online selling palce where an individual can buy products in wholesell</p>
@@ -52,7 +52,7 @@ const Projects = () => {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={ware} alt="" />
+                            <img className='img-fluid' src={ware1} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Warehouse</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Warehouse is an inventory management system where a business person can manage stocks of products and incomin or outgoing orders.</p>
@@ -68,7 +68,7 @@ const Projects = () => {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={dataSci} alt="" />
+                            <img className='img-fluid' src={data1} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Independent Data Scientist</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>Independent Data Scientist is indivial service provider application where an individual can book any service provided by the data scientist.</p>
@@ -84,7 +84,7 @@ const Projects = () => {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={eye} alt="" />
+                            <img className='img-fluid' src={eye1} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Eye Frame -Simple Ecommerce</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>Eye Frame is a simple ecommerce cart functionality where an individual can select 5 frames and the application will chosse one for the individual.</p>
@@ -100,7 +100,7 @@ const Projects = () => {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={mobile} alt="" />
+                            <img className='img-fluid' src={mobile2} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">Mobile Pedia -Simple Phone Database</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>Mobile-Pedia is a simple phone database where an individual can search any phone and can see the latest specification and prices of the phone.</p>
@@ -116,7 +116,7 @@ const Projects = () => {
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 my-5">
                         <div class="card">
-                            <img className='img-fluid' src={refri} alt="" />
+                            <img className='img-fluid' src={refri1} alt="" />
                             <div class="card-body">
                                 <h5 class="card-title">NNABI Refrigeretor -Product Review</h5>
                                 <p class="card-text" style={{ "textAlign": "justify" }}>NNABI Refrigeretor is a website based product review fuctionality where anyone can see the other people reviews about the product and specification.</p>

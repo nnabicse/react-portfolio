@@ -1,5 +1,8 @@
 import React from 'react';
-import mobile from '../../src/images/projects/mobile.png'
+import { Carousel } from 'react-bootstrap';
+import mobile1 from '../../src/images/projects/mobile1.png'
+import mobile2 from '../../src/images/projects/mobile2.png'
+import mobile3 from '../../src/images/projects/mobile3.png'
 
 const Mobile = () => {
     return (
@@ -11,7 +14,34 @@ const Mobile = () => {
                 <div className='row justify-content-center'>
                     <div className='col-sm-12 col-md-6 col-lg-6'>
                         <div class="card mb-3">
-                            <img class="card-img-top" src={mobile} alt="Card image cap" />
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={mobile1}
+                                        alt="First slide"
+                                    />
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={mobile2}
+                                        alt="Second slide"
+                                    />
+
+
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img
+                                        className="d-block w-100"
+                                        src={mobile3}
+                                        alt="Third slide"
+                                    />
+                                </Carousel.Item>
+                            </Carousel>
+
+                            {/* <img class="card-img-top" src={mobile} alt="Card image cap" /> */}
                             <div class="card-body">
                                 <h5 class="card-title">Mobile Pedia -Simple Phone Database with Search</h5>
                                 <p class="card-text">Mobile Pedia is a simple phone database functionality that helps someone to choose or find phone information simply by searching. It's a modern looking design with qa consistant UI. This websitr built with HTML5, CSS3, Javascript, Bootstrap CSS5 and other technologies.</p>

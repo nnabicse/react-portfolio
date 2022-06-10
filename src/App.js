@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About';
+import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
 import Education from './Components/Education';
 import Eyeframe from './Components/Eyeframe';
@@ -33,6 +34,7 @@ function App() {
         <Route path='/mobile' element={<Mobile></Mobile>}></Route>
         <Route path='/refri' element={<Refri></Refri>}></Route>
         <Route path='/eframe' element={<Eyeframe></Eyeframe>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
